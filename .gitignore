@@ -1,5 +1,8 @@
 # Local .terraform directories
+**/.terraform/modules
+**/.terraform/providers
 **/.terraform/*
+**/.terraform/**/*
 terraform.exe
 terraform
 
@@ -40,7 +43,4 @@ override.tf.json
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
 .terraform.lock.hcl
-
-.idea
-*.iml
-*.retry
+devqa/.terraformChk.cmd.un~
